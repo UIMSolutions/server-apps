@@ -1,0 +1,120 @@
+{
+	"authors": [
+		"Ozan Nurettin Süel",
+		"Sicherheitsschmiede"
+	],
+	"copyright": "Copyright © 2015-2023 Ozan Nurettin Süel (Sicherheitsschmiede)",
+	"license": "Apache-2.0",
+	"name": "server-apps",
+	"description": "Server for management Apps",
+	"targetType": "executable",
+	"dependencies": {
+		"colored": "~>0.0.23",
+		"vibe-d": "~>0.9.6"
+	},
+	"importPaths": [
+		"../../LIBS/uim-core",
+		"../../LIBS/uim-oop",
+		"../../LIBS/uim-css",
+		"../../LIBS/uim-html",
+		"../../LIBS/uim-bootstrap",
+		"../../LIBS/uim-apps",
+		"../../LIBS/uim-servers",
+		
+		"../../WEBS/web-controls",
+
+		"../../LIBS/uim-jsonbase",
+		"../../LIBS/uim-entitybase",
+		"../../LIBS/uim-mvc",
+		
+		"../../LIBS/uim-models",
+
+		"../../LANGS/lang-javascript",
+
+		"../../MODELS/model-systems",
+		
+		"../../LAYOUTS/layout-tabler/source/layouts",
+
+		"../../APPS/app-automotive",
+		"../../APPS/app-bim",
+		"../../APPS/app-cms",
+		"../../APPS/app-contacts",
+		"../../APPS/app-crm",
+		"../../APPS/app-ecm",
+		"../../APPS/app-educations",
+		"../../APPS/app-gis",
+		"../../APPS/app-grundschutz",
+		"../../APPS/app-hcm",
+		"../../APPS/app-healthcare",
+		"../../APPS/app-inventories",
+		"../../APPS/app-marketing",
+		"../../APPS/app-modeller",
+		"../../APPS/app-portals",
+		"../../APPS/app-privacy",
+		"../../APPS/app-projects",
+		"../../APPS/app-retail",
+		"../../APPS/app-scm",
+		"../../APPS/app-services",
+		"../../APPS/app-systems",
+		"../../APPS/app-threats",
+		"../../APPS/app-timesheet",
+		"../../APPS/app-todos",
+		"../../APPS/app-transportation",
+		"../../APPS/app-uml",
+		"../../APPS/app-warehouse",
+		"../../APPS/app-workflows",
+		
+		"./"
+	],
+	"sourcePaths": [
+		"../../LIBS/uim-core",
+		"../../LIBS/uim-oop",
+		"../../LIBS/uim-css",
+		"../../LIBS/uim-html",
+		"../../LIBS/uim-bootstrap",
+		"../../LIBS/uim-apps",
+		"../../LIBS/uim-servers",
+		"../../LIBS/uim-jsonbase",
+		"../../LIBS/uim-entitybase",
+		"../../LIBS/uim-mvc",
+		
+		"../../LIBS/uim-models",
+		"../../LANGS/lang-javascript",
+		"../../WEBS/web-controls",
+		
+		"../../MODELS/model-systems",
+		
+		"../../LAYOUTS/layout-tabler/source/layouts",
+
+		"../../APPS/app-automotive",
+		"../../APPS/app-bim",
+		"../../APPS/app-cms",
+		"../../APPS/app-contacts",
+		"../../APPS/app-crm",
+		"../../APPS/app-ecm",
+		"../../APPS/app-educations",
+		"../../APPS/app-gis",
+		"../../APPS/app-grundschutz",
+		"../../APPS/app-hcm",
+		"../../APPS/app-healthcare",
+		"../../APPS/app-inventories",
+		"../../APPS/app-marketing",
+		"../../APPS/app-modeller",
+		"../../APPS/app-portals",
+		"../../APPS/app-privacy",
+		"../../APPS/app-projects",
+		"../../APPS/app-retail",
+		"../../APPS/app-scm",
+		"../../APPS/app-services",
+		"../../APPS/app-systems",
+		"../../APPS/app-threats",
+		"../../APPS/app-timesheet",
+		"../../APPS/app-todos",
+		"../../APPS/app-transportation",
+		"../../APPS/app-uml",
+		"../../APPS/app-warehouse",
+		"../../APPS/app-workflows",
+
+		"./"
+	]
+}
