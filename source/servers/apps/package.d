@@ -54,17 +54,18 @@ public import layouts.tabler;
 
 
 public { // Owining packages
+  import servers.apps.server;
   import servers.apps.controllers;
   import servers.apps.layouts;
   import servers.apps.views;
 }
 
 static this() {
-  thisServer = Server
-    .rootPath("")
+  thisServer = AppsServer
+    .rootPath("/")
     .layout(CentralLayout)
     .addRoute(Route("apps", HTTPMethod.GET, MainIndexPageController))
-    .addRoute(Route("/login", HTTPMethod.GET, LoginPageController))
+    .addRoute(Route("login", HTTPMethod.GET, LoginPageController))
     .addRoute(Route("login2", HTTPMethod.GET, Login2PageController))
     .addRoute(Route("logout", HTTPMethod.GET, LogoutPageController))
     .addRoute(Route("signin", HTTPMethod.GET, SignInPageController))

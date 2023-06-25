@@ -22,3 +22,11 @@ docs/
 
 # Code coverage
 *.lst
+server-apps
+logs/server-apps-http-20230610T071414.8671063.log
+logs/server-apps-http-20230620T131114.8809611.log
+logs/server-apps-http-20230621T070315.0241946.log
+logs/server-apps-http-20230621T070342.8599943.log
+logs/server-apps-http-20230621T070457.3121263.log
+logs/server-apps-http-20230621T070633.6758644.log
+logs/server-apps-http-20230621T071037.1787179.log

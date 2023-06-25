@@ -14,7 +14,7 @@ void main(string[] args) {
   thisServer
     .layout(CentralLayout)
 		.register(router)
-    .registerApps(
+    .addApps(
       AppRegistry.apps
     );
 

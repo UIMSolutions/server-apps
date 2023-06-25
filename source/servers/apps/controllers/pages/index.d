@@ -3,7 +3,7 @@ module servers.apps.controllers.pages.index;
 @safe:
 import servers.apps;
 
-class DMainIndexPageController : DSRVPageController {
+class DMainIndexPageController : DPageController {
   mixin(ControllerThis!("MainIndexPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
