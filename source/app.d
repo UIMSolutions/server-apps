@@ -11,16 +11,19 @@ void main(string[] args) {
 	debug writeln("SetRouterDefault!()");
   mixin(SetRouterDefault!());
 
-  thisServer
-    .layout(CentralLayout)
-		.register(router)
-    .addApps(
-      AppRegistry.apps
-    );
+  debug writeln("--- Set default layout");
+  thisServer.defaultLayout(CentralLayout);
 
-  writeln("Registered Apps:");
-  writeln(AppRegistry.paths);
+  debug writeln("--- Register router");
+	thisServer.registerRouter(router);
   
+  auto myApps = AppRegistry.apps;
+  debug writeln ("%s registered apps".format(myApps.length));
+  thisServer.addApps(myApps); 
+  // myApps.each!(myApp => myApp.manager(thisServer)); // Work around
+  debug writeln ("%s apps in server".format(thisServer.apps.length));
+  
+  debug writeln("--- Set HTTP");
   mixin(SetHTTP!());
 	runApplication();
 }
