@@ -7,11 +7,11 @@ class DMainIndexView : DView {
   mixin(ViewThis!("MainIndexView"));
 
   override DH5Obj[] toH5(STRINGAA options = null) {
-    debugMethodCall(moduleName!DMainIndexView~"DMainIndexView("~this.name~")::toH5");
+    debugMethodCall(moduleName!DMainIndexView~":DMainIndexView("~this.name~")::toH5");
     super.toH5(options);
 
     return [
-      H5Div("APP CMS -> Index")
+      H5Div("Server -> Index")
     ].toH5;
   }
 }
