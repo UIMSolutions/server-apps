@@ -9,13 +9,11 @@
 	"description": "Server for management Apps",
 	"targetType": "executable",
 	"dependencies": {
-		"colored": "~>0.0.23",
-		"vibe-d": "~>0.9.6"
+		"colored": "~>0.0.31",
+		"vibe-d": "~>0.9.7",
+		"uim": "~>24.1.1"
 	},
 	"importPaths": [
-		"../../LIBS/uim-core",
-		"../../LIBS/uim-oop",
-		"../../LIBS/uim-css",
 		"../../LIBS/uim-html",
 		"../../LIBS/uim-bootstrap",
 		"../../LIBS/uim-apps",
@@ -74,9 +72,6 @@
 		"./"
 	],
 	"sourcePaths": [
-		"../../LIBS/uim-core",
-		"../../LIBS/uim-oop",
-		"../../LIBS/uim-css",
 		"../../LIBS/uim-html",
 		"../../LIBS/uim-bootstrap",
 		"../../LIBS/uim-apps",
